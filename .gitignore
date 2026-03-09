@@ -6,4 +6,5 @@ storage/generated_ppt/
 .ipynb_checkpoints/
 .DS_Store
 config/settings.py
-*.ipynb
+*.ipynb.env
+venv/

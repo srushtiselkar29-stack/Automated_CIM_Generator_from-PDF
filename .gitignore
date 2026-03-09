@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+storage/generated_ppt/
+.ipynb_checkpoints/
+.DS_Store
+config/settings.py
+*.ipynb

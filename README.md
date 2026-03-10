@@ -73,6 +73,8 @@ HF_TOKEN=your_huggingface_token
 Run the API server
 uvicorn api.main:app --reload
 
+---
+
 ## Generate a PowerPoint from PDF
 
 Send a POST request to /generate-ppt with a PDF file:
@@ -85,6 +87,8 @@ JSON:
   "ppt_path": "path_to_generated_ppt.pptx"
 }
 
+---
+
 ## Notes
 
 Keep all secrets (Hugging Face token, API keys) in .env.
@@ -94,6 +98,8 @@ The repo ignores:
   config/settings.py
   storage/generated_ppt/
   *.ipynb and checkpoints
+
+---
 
 ## Dependencies
 Dependencies are listed in requirement.txt file

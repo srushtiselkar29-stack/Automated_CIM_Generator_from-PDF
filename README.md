@@ -50,16 +50,15 @@ Infosys/
 ## Installation
 
 1. Clone the repo:
-```bash
 git clone https://github.com/srushtiselkar29-stack/Automated_CIM_Generator_from-PDF.git
 cd Automated_CIM_Generator_from-PDF
 
 2. Create and activate a virtual environment:
-# macOS/Linux
+-macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
-# Windows
+-Windows
 python -m venv venv
 venv\Scripts\activate
 
@@ -71,7 +70,7 @@ HF_TOKEN=your_huggingface_token
 
 ---
 
-## **Usage**
+## Usage
 Run the API server
 uvicorn api.main:app --reload
 

@@ -50,7 +50,6 @@ Infosys/
 ## Installation
 
 1. Clone the repo:
-
 ```bash
 git clone https://github.com/srushtiselkar29-stack/Automated_CIM_Generator_from-PDF.git
 cd Automated_CIM_Generator_from-PDF

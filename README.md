@@ -54,11 +54,12 @@ git clone https://github.com/srushtiselkar29-stack/Automated_CIM_Generator_from-
 cd Automated_CIM_Generator_from-PDF
 
 2. Create and activate a virtual environment:
--macOS/Linux
+   
+macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
--Windows
+Windows
 python -m venv venv
 venv\Scripts\activate
 

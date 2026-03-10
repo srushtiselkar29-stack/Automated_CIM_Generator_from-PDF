@@ -69,13 +69,15 @@ pip install -r requirements.txt
 4. Add your Hugging Face token to a .env file:
 HF_TOKEN=your_huggingface_token
 
-## Usage
+---
+
+## **Usage**
 Run the API server
 uvicorn api.main:app --reload
 
 ---
 
-## Generate a PowerPoint from PDF
+##Generate a PowerPoint from PDF
 
 Send a POST request to /generate-ppt with a PDF file:
 curl -X POST "http://127.0.0.1:8000/generate-ppt" \
@@ -89,7 +91,7 @@ JSON:
 
 ---
 
-## Notes
+##Notes
 
 Keep all secrets (Hugging Face token, API keys) in .env.
 The repo ignores:

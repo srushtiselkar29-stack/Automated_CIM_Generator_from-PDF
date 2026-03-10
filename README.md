@@ -76,7 +76,7 @@ uvicorn api.main:app --reload
 
 ---
 
-##Generate a PowerPoint from PDF
+##**Generate a PowerPoint from PDF**
 
 Send a POST request to /generate-ppt with a PDF file:
 curl -X POST "http://127.0.0.1:8000/generate-ppt" \
@@ -90,7 +90,7 @@ JSON:
 
 ---
 
-##Notes
+##**Notes**
 
 Keep all secrets (Hugging Face token, API keys) in .env.
 The repo ignores:
